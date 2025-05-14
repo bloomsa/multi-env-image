@@ -1,0 +1,9 @@
+name: jdk
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - openjdk
+  - ca-certificates
+  - git
+  - conda-pack

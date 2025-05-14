@@ -1,0 +1,13 @@
+name: py-3.9
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - conda-pack
+  - pip
+  - pip:
+      - flask
+      - sampleproject
